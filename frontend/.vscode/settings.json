@@ -1,0 +1,15 @@
+{
+	"nuxtr.vueFiles.template.defaultLanguage": "html",
+	"nuxtr.vueFiles.firstTag": "template",
+	"nuxtr.vueFiles.script.type": "setup",
+	"nuxtr.vueFiles.script.defaultLanguage": "ts",
+	"nuxtr.vueFiles.style.addStyleTag": true,
+	"nuxtr.vueFiles.style.alwaysScoped": true,
+	"nuxtr.vueFiles.style.defaultLanguage": "scss",
+	"nuxtr.piniaFiles.defaultTemplate": "setup",
+	"nuxtr.openItemsAfterCreation": true,
+	"nuxtr.defaultPackageManager": "Bun",
+	"nuxtr.intellisense.nuxtrc": true,
+	"nuxtr.intellisense.vueFiles": true,
+	"nuxtr.intellisense.nuxtignore": true
+}
