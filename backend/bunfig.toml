@@ -1,0 +1,50 @@
+# Preload reflect-metadata before running any script
+preload = ["reflect-metadata"]
+
+[install]
+# Optional: Ensure consistent dependency versions
+exact = true
+
+[test]
+# Optional: Set root directory for bun test
+root = "./test"
+
+[run]
+# Optional: Set root directory for bun run
+bun = true
+root = "./src"
+entry = "main.ts"
+# Optional: Set environment variables for bun run
+env = { NODE_ENV = "development" }
+
+[build]
+# Optional: Set output directory for bun build
+outdir = "./dist"
+minify = true
+sourcemap = true
+target = "bun"
+entry = "src/main.ts"
+# Optional: Set environment variables for bun build
+env = { NODE_ENV = "production" }
+
+[dev]
+# Optional: Set root directory for bun dev
+root = "./src"
+entry = "main.ts"
+# Optional: Set environment variables for bun dev
+env = { NODE_ENV = "development" }
+watch = true
+inspect = true
+# Optional: Set port for bun dev inspector
+inspect_port = 9229
+
+[debug]
+# Optional: Set root directory for bun debug
+root = "./src"
+entry = "main.ts"
+# Optional: Set environment variables for bun debug
+env = { NODE_ENV = "development" }
+watch = true
+inspect = true
+# Optional: Set port for bun debug inspector
+inspect_port = 9229
