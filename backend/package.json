@@ -5,11 +5,6 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "workspaces": [
-    "src/apps/*",
-    "src/libs/*",
-    "src/packages/*"
-  ],
   "scripts": {
     "start": "bun run --bun src/main.ts",
     "dev": "bun --watch run --bun src/main.ts",

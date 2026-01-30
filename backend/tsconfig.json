@@ -29,8 +29,8 @@
       "@common/*": [
         "./src/common/*"
       ],
-      "@apps/*": [
-        "./src/apps/*"
+      "@plugins/*": [
+        "./src/plugins/*"
       ],
       "@libs/*": [
         "./src/libs/*"
